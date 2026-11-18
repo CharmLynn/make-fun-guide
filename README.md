@@ -55,11 +55,7 @@ That is all. No credit card, no application form.
 
 ## 1. Create your account
 
-Go to [make.fun](https://make.fun) and sign in. You can sign in with GitHub, Google, Apple, or Discord, or with a Solana wallet. If you use my link, sign up here first:
-
-**https://make.fun/r/mpd17n5r** (referral code `mpd17n5r`)
-
-Once you are in, open your profile and check three things:
+Go to [make.fun](https://make.fun) and sign in. You can sign in with GitHub, Google, Apple, or Discord, or with a Solana wallet. Once you are in, open your profile and check three things:
 
 1. Your handle is set to something you like. The site gives you a default one; you can change it.
 2. Your payout wallet is the address you want rewards sent to. If you signed in with a wallet, that is already the one. If you signed in another way, link a wallet on your profile.
@@ -99,7 +95,7 @@ Submission always carries three things: your entry, a signed message that names 
 node cli/makefun.mjs submit --competition <slug> --repo-url <url> --commit <sha> --title <name> --bundle <file> --keypair <file>
 ```
 
-The exact flags depend on the bounty: some take a GitHub repository URL and a commit, others take a source bundle. The kit's `RULES.txt` and the `submit --help` text say which. Submit before the deadline; a submission received after it does not count. You can usually submit more than once, and the last one received before the deadline is the one that counts.
+The exact flags depend on the bounty: some take a GitHub repository URL and a commit, others take a source bundle. The kit's `RULES.txt` and the `submit --help` text say which. Submit before the deadline; a submission received after it does not count. You can usually submit more than once, and the last one received before the deadline is the one that counts, so submit your first working version early and improve it after that instead of waiting until the last hour.
 
 ## 6. If a check fails, fix it and resubmit
 
